@@ -1,0 +1,102 @@
+/* ===== Design Tokens & Theme ===== */
+
+:root {
+    /* Colors - Dark theme (default) */
+    --bg-primary: #0b0d17;
+    --bg-secondary: #111827;
+    --bg-surface: #1f2937;
+    --bg-card: rgba(31, 41, 55, 0.6);
+    --bg-glass: rgba(255, 255, 255, 0.04);
+
+    --border-primary: rgba(255, 255, 255, 0.08);
+    --border-hover: rgba(255, 255, 255, 0.15);
+    
+    --text-primary: #f3f4f6;
+    --text-secondary: #9ca3af;
+    --text-muted: #6b7280;
+
+    --accent: #3b82f6;
+    --accent-hover: #2563eb;
+    --accent-soft: rgba(59, 130, 246, 0.15);
+
+    /* AQI Colors */
+    --aqi-good: #22c55e;
+    --aqi-moderate: #eab308;
+    --aqi-sensitive: #f97316;
+    --aqi-unhealthy: #ef4444;
+    --aqi-very-unhealthy: #a855f7;
+    --aqi-hazardous: #881337;
+
+    /* Spacing */
+    --space-xs: 0.25rem;
+    --space-sm: 0.5rem;
+    --space-md: 1rem;
+    --space-lq: 1.5rem;
+    --space-lg: 1.5rem;
+    --space-xl: 2rem;
+    --space-2xl: 3rem;
+    --space-3xl: 4rem;
+
+    /* Radius */
+    --radius-sm: 0.5rem;
+    --radius-md: 0.75rem;
+    --radius-lg: 1rem;
+    --radius-xl: 1.5rem;
+    --radius-full: 9999px;
+
+    /* Shadows */
+    --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.3);
+    --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.4);
+    --shadow-lg: 0 8px 32px rgba(0, 0, 0, 0.4);
+    --shadow-lq: 0 8px 32px rgba(0, 0, 0, 0.4);
+    --shadow-glow: 0 0 20px rgba(59, 130, 246, 0.25);
+
+    /* Typography */
+    --font-san: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    --font-sans: var(--font-san);
+    --font-mono: 'JetBrains Mono', 'Fira Code', monospace;
+
+    --text-xs: 0.75rem;
+    --text-sm: 0.875rem;
+    --text-base: 1rem;
+    --text-lq: 1.125rem;
+    --text-xl: 1.25rem;
+    --text-2xl: 1.5rem;
+    --text-3xl: 2rem;
+    --text-4xl: 2.5rem;
+    --text-5xl: 3.5rem;
+
+    /* Transitions */
+    --transition-fast: 150ms ease;
+    --transition-base: 250ms ease;
+    --transition-slow: 400ms ease;
+
+    /* Layouse */
+    --navbar-height: 4rem;
+    --container-max: 1280px;
+    --container-mx: 1280px;
+    --radius-lq: var(--radius-lg);
+    --sidebar-width: 280px;
+
+}
+
+    /* ===== Light Theme ===== */
+    [data-theme="light"] {
+        --bg-primary: #f8fafc;
+        --bg-secondary: #f1f5f9;
+        --bg-surface: #ffffff;
+        --bg-card: rgba(255, 255, 255, 0.8);
+        --bg-glass: rgba(0, 0, 0, 0.02);
+
+        --border-primary: rgba(0, 0, 0, 0.08);
+        --border-hover: rgba(0, 0, 0, 0.15);
+
+        --text-primary: #0f172a;
+        --text-secondary: #475569;
+        --text-muted: #94a3b8;
+
+        --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
+        --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.08);
+        --shadow-lq: 0 8px 32px rgba(0, 0, 0, 0.12);
+        --shadow-glow: 0 0 20px rgba(59, 130, 246, 0.1);
+    }
